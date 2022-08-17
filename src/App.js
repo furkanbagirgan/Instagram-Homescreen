@@ -1,20 +1,18 @@
 import React from "react";
-import { SafeAreaView, ScrollView, View, StyleSheet } from "react-native";
+import { SafeAreaView, StyleSheet } from "react-native";
+import HeadBar from "./components/HeadBar";
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <ScrollView contentInsetAdjustmentBehavior="automatic" style={styles.container}>
-        <View>
-          Hello
-        </View>
-      </ScrollView>
+    <SafeAreaView style={styles.wrapper}>
+      <HeadBar />
     </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
+  wrapper: {
+    flex: 1,
     backgroundColor: "white",
   },
 });
