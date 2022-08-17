@@ -27,14 +27,12 @@ const styles=StyleSheet.create({
     paddingHorizontal: 10,
     borderTopWidth: 1,
     borderTopColor: "#eee",
-    borderBottomWidth: 1,
-    borderBottomColor: "#eee"
   },
   leftIcons:{
-    width: 120,
+    width: 110,
     height: 50,
     flexDirection: "row",
-    justifyContent: "space-around",
+    justifyContent: "space-between",
     alignItems: "center",
   },
   rightIcons:{

@@ -2,6 +2,7 @@ import React from "react";
 import { View, Image, StyleSheet } from "react-native";
 import PostHeader from "./PostHeader";
 import InterplayBar from "./InterplayBar";
+import LikeBar from "./LikeBar";
 
 const Post=({image,userName,userImage,postDescription})=>{
   return(
@@ -11,6 +12,7 @@ const Post=({image,userName,userImage,postDescription})=>{
         <Image source={{uri:image}} style={styles.image}/>
       </View>
       <InterplayBar />
+      <LikeBar />
     </View>
   )
 }
