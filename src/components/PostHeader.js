@@ -1,23 +1,23 @@
 import React from "react";
-import { View, Image, Text, StyleSheet } from "react-native";
+import {View, Image, Text, StyleSheet} from "react-native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 
-const PostHeader=({userName,userImage})=>{
-  return(
-    <View style={styles.header}>
-        <View style={styles.userWrapper}>
-          <View style={styles.userImageWrapper}>
-            <Image source={{uri:userImage}} style={styles.userImage}/>
-          </View>
-          <Text style={styles.userName}>{userName}</Text>
+const PostHeader = ({userName, userImage}) => {
+  return (
+    <View style={styles.container}>
+      <View style={styles.userWrapper}>
+        <View style={styles.userImageWrapper}>
+          <Image source={{uri: userImage}} style={styles.userImage} />
         </View>
-        <Icon name="dots-horizontal" size={20} color="black"/>
+        <Text style={styles.userName}>{userName}</Text>
       </View>
-  )
-}
+      <Icon name="dots-horizontal" size={20} color="black" />
+    </View>
+  );
+};
 
-const styles=StyleSheet.create({
-  header:{
+const styles = StyleSheet.create({
+  container: {
     width: "100%",
     height: 45,
     flexDirection: "row",
@@ -27,21 +27,21 @@ const styles=StyleSheet.create({
     borderTopWidth: 1,
     borderTopColor: "#eee",
     borderBottomWidth: 1,
-    borderBottomColor: "#eee"
+    borderBottomColor: "#eee",
   },
-  userWrapper:{
+  userWrapper: {
     flexDirection: "row",
-    alignItems: "center"
+    alignItems: "center",
   },
-  userImage:{
+  userImage: {
     width: 30,
     height: 30,
-    borderRadius: 15
+    borderRadius: 15,
   },
-  userName:{
+  userName: {
     fontSize: 14,
     color: "black",
-    marginLeft: 5
+    marginLeft: 5,
   },
 });
 
