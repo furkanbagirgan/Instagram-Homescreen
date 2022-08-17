@@ -6,10 +6,11 @@ In this assignment, the home page of the Instagram application was created using
 - React Native Vector Icons
 
 ## Screens
-<p><img src="screenshots/shot1.jpg" width="32%">
-<img src="screenshots/shot2.jpg" width="32%"></p>
-<p><img src="screenshots/shot3.jpg" width="32%">
-<img src="screenshots/shot3.jpg" width="32%"></p>
+<div>
+<kbd><img src="screenshots/shot1.jpg" width="250"></kbd>
+<kbd><img src="screenshots/shot2.jpg" width="250"></kbd>
+<kbd><img src="screenshots/shot3.jpg" width="250"></kbd>
+</div>
 
 ## Installation
 1.Clone Project
