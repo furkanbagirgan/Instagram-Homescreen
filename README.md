@@ -9,11 +9,7 @@ In this assignment, the home page of the Instagram application was created using
 <div>
 <kbd><img src="screenshots/shot1.jpg" width="250"></kbd>
 <kbd><img src="screenshots/shot2.jpg" width="250"></kbd>
-</div>
---------------------------------------------------------
-<div>
 <kbd><img src="screenshots/shot3.jpg" width="250"></kbd>
-<kbd><img src="screenshots/shot4.jpg" width="250"></kbd>
 </div>
 
 ## Installation
