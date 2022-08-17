@@ -1,15 +1,13 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
 import HeadBar from "./components/HeadBar";
-import Posts from "./components/Posts";
-import Stories from "./components/Stories";
+import Content from "./components/Content";
 
 const App = () => {
   return (
     <SafeAreaView style={styles.wrapper}>
       <HeadBar />
-      <Stories />
-      <Posts />
+      <Content />
     </SafeAreaView>
   );
 };

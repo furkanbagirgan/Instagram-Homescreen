@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text, Image, StyleSheet } from "react-native";
 
-const Story=({image,username})=>{
+const Story=({image,userName})=>{
   return(
     <View style={styles.container}>
       <View style={styles.imageWrapper}>
         <Image source={{uri:image}} style={styles.image}/>
       </View>
-      <Text style={styles.name}>{username}</Text>
+      <Text style={styles.name}>{userName}</Text>
     </View>
   )
 }
