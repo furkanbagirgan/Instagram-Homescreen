@@ -1,6 +1,7 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
 import HeadBar from "./components/HeadBar";
+import Posts from "./components/Posts";
 import Stories from "./components/Stories";
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
     <SafeAreaView style={styles.wrapper}>
       <HeadBar />
       <Stories />
+      <Posts />
     </SafeAreaView>
   );
 };
