@@ -14,7 +14,7 @@ In this assignment, the home page of the Instagram application was created using
 ## Installation
 1.Clone Project
 ```
-git clone https://github.com/furkanbagirgan/Foodplace-App.git
+git clone https://github.com/patika-218-akbank-reactnative-bootcamp/assignment-1-furkanbagirgan.git
 ```
 2.Install the Necessary Packages for Project
 ```
