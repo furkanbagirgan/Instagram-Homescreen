@@ -1,5 +1,5 @@
 # Instagram Home Screen
-In this project, the home screen of the Instagram application was created using mock data.
+In this application, the home screen of the Instagram was created using mock data.
 
 ## Used technologies
 - React Native CLI
